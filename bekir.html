@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bekir</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            transition: background-image 0.5s ease;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #222;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bekir</h1>
+    <p>Aslan abime </p>
+</header>
+
+<section>
+    <h2>Aslan Abime</h2>
+    <p>
+        Aslan abim, varlığın yeter.  
+        sen aklına koyduğun herşeyi başarırısın çünkü senin
+ inanılmz bir gücün ve sevgin de varrrrr
+    </p>
+
+    <button onclick="arkaPlanDegistir()">
+        Fotoğrafı Göster
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 EBU CEHİL </p>
+</footer>
+
+<script>
+    function arkaPlanDegistir() {
+        document.body.style.backgroundImage = "url('foto.jpg')";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundRepeat = "no-repeat";
+    }
+</script>
+
+</body>
+</html>
